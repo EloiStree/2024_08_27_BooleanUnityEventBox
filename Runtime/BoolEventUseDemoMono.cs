@@ -142,7 +142,15 @@ namespace Eloi
                     m_currentValue = currentValue;
                 }
 
+                public bool GetPreviousValue()
+                {
+                    return m_previousValue;
+                }
 
+                public bool GetCurrentValue()
+                {
+                    return m_currentValue;
+                }
 
                 public void GetCurrentValue(out bool value)
                 {
@@ -251,6 +259,11 @@ namespace Eloi
                 }
 
 
+
+                public bool GetCurrentValue()
+                {
+                    return m_currentValue;
+                }
 
                 public void GetCurrentValue(out bool value)
                 {
