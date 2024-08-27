@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.boolevent",                              
+  "displayName": "EloiPackNoXR",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Toolbox of Unty Event to use in your project.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_08_27_BooleanUnityEventBox.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
