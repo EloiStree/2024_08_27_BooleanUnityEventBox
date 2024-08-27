@@ -23,7 +23,7 @@ public class BoolEventUseDemoMono : MonoBehaviour{
 
 
     [Header("Bean")]
-    public Eloi.BoolEvent.Bean.ObservedBooleanValueChange m_boolEventBean;
+    public Eloi.BoolEvent.Bean.BooleanObservedForChange m_boolEventBean;
 }
 
 
