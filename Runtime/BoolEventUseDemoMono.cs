@@ -20,12 +20,24 @@ public class BoolEventUseDemoMono : MonoBehaviour{
     public Eloi.BoolEvent.Relay.OnTrueFalseRelayed m_onTrueFalseRelayed;
     public Eloi.BoolEvent.Relay.OnValueRelayed m_onValueRelayed;
     public Eloi.BoolEvent.Relay.OnInverseRelayed m_onInverseRelayed;
+
+
+    [Header("Bean")]
+    public Eloi.BoolEvent.Bean.ObservedBooleanValue m_boolEventBean;
 }
 
 
-namespace Eloi {
+namespace Eloi
+{
 
-    public static class BoolEvent {
+    public static partial class BoolEvent {
+
+
+        public static partial class Bean {
+
+
+        }
+
 
         public static class Changed {
 
@@ -253,4 +265,7 @@ namespace Eloi {
             }
         }
     }
+
+
+
 }
