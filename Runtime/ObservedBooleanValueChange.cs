@@ -9,7 +9,7 @@ namespace Eloi
 
         public static partial class Bean {
             [System.Serializable]
-            public class ObservedBooleanValue
+            public class ObservedBooleanValueChange
             {
 
                 [SerializeField] bool m_booleanState;
@@ -24,6 +24,9 @@ namespace Eloi
                     return m_booleanState;
                 }
             }
+
+
+            
 
 
         }

@@ -23,7 +23,7 @@ public class BoolEventUseDemoMono : MonoBehaviour{
 
 
     [Header("Bean")]
-    public Eloi.BoolEvent.Bean.ObservedBooleanValue m_boolEventBean;
+    public Eloi.BoolEvent.Bean.ObservedBooleanValueChange m_boolEventBean;
 }
 
 
@@ -113,6 +113,11 @@ namespace Eloi
                     if (m_previousValue != m_currentValue)
                         OnChanged(value);
                 }
+
+                public void IsNewValue(bool value, out bool willBeNewValue)
+                    => willBeNewValue = m_currentValue != value;
+                public bool IsNewValue(bool value)
+                { return m_currentValue != value; }
 
 
                 public AbstractBoolEventOnChanged()
